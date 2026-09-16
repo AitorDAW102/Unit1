@@ -28,5 +28,10 @@ public class HelloWorld {
 
             //division
         int division = cantidad1+cantidad2;
+            //resultados
+        System.out.println("La suma es "+ suma);
+        System.out.println("La resta es "+ resta);
+        System.out.println("La multiplicación es "+ multiplicacion);
+        System.out.println("La división es "+ division);
     }
 }
