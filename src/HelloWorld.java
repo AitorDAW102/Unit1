@@ -11,27 +11,32 @@ public class HelloWorld {
         System.out.println(apagado);
 
         //IVA
-        int cantidad1 = 1000;
-        int cantidad2 = 99999;
+        double cantidad1 = 1000;
+        double cantidad2 = 99999;
         System.out.println(cantidad1*IVA);
         System.out.println(cantidad2*IVA);
 
         //operaciones
             //suma
-        int suma = cantidad1+cantidad2;
+        double suma = cantidad1+cantidad2;
 
             //resta
-        int resta = cantidad1+cantidad2;
+        double resta = cantidad1-cantidad2;
 
             //multiplicacion
-        int multiplicacion = cantidad1+cantidad2;
+        double multiplicacion = cantidad1*cantidad2;
 
             //division
-        int division = cantidad1+cantidad2;
+        double division = cantidad1/cantidad2;
+
+            //resto
+        double resto = cantidad1%cantidad2;
+
             //resultados
         System.out.println("La suma es "+ suma);
         System.out.println("La resta es "+ resta);
         System.out.println("La multiplicación es "+ multiplicacion);
         System.out.println("La división es "+ division);
+        System.out.println("El resto es "+ resto);
     }
 }
