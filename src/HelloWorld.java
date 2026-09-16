@@ -15,5 +15,18 @@ public class HelloWorld {
         int cantidad2 = 99999;
         System.out.println(cantidad1*IVA);
         System.out.println(cantidad2*IVA);
+
+        //operaciones
+            //suma
+        int suma = cantidad1+cantidad2;
+
+            //resta
+        int resta = cantidad1+cantidad2;
+
+            //multiplicacion
+        int multiplicacion = cantidad1+cantidad2;
+
+            //division
+        int division = cantidad1+cantidad2;
     }
 }
