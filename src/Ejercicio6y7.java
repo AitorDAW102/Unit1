@@ -10,7 +10,7 @@ public class Ejercicio6y7 {
         num1=A;
         System.out.println("el valor de A es "+num2+"el valor de  es "+num1);
 
-        double lenght = 18.84;
+        double lenght = 3;
         double result= lenght*2*Math.PI;
         System.out.println("La circunferencia de "+lenght+ "es " +result);
     }
