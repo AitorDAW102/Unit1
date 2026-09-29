@@ -7,6 +7,6 @@ public class WP3 {
 
         String USERNAME=username.toUpperCase();
 
-        System.out.println("Hello "+ USERNAME+", nice to meet you!!");
+        System.out.println("Hello "+ USERNAME+", nice to meet you!! ");
     }
 }
